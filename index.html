@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <!-- Title -->
+    <title>Number Counter</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <h2>NUMBER COUNT</h2>
+        <h2 id="main-number">0</h2>
+
+        <section>
+            <div>
+                <button onclick="updateNumber(1)">+1</button>
+                <button onclick="updateNumber(5)">+5</button>
+                <button onclick="updateNumber(10)">+10</button>
+            </div>
+
+            <div>
+                <button onclick="updateNumber(0)">Reset</button>
+            </div>
+
+            <div>
+                <button onclick="updateNumber(-1)">-1</button>
+                <button onclick="updateNumber(-5)">-5</button>
+                <button onclick="updateNumber(-10)">-10</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+
+</html>
