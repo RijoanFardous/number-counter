@@ -21,7 +21,6 @@ main {
     height: 350px;
     background-color: white;
     padding: 25px;
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
 
 section {
@@ -66,5 +65,9 @@ button:hover {
     main {
         width: 280px;
         height: 380px;
+    }
+
+    #main-number {
+        font-size: 7rem;
     }
 }
